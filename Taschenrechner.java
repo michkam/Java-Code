@@ -6,8 +6,10 @@ public class Taschenrechner extends JFrame {
 	
 	public Taschenrechner(){
 	super("Taschenrechner");
+	setSize(200,500);
 	setDefaultCloseOperation(EXIT_ON_CLOSE);
-	setResizable(false);
+
+	//setResizable(false);
 	JPanel p= new JPanel();
 	JLabel l1= new JLabel("Zahl1: ");
 	JLabel l2= new JLabel("Zahl2: ");
